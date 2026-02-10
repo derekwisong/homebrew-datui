@@ -1,20 +1,20 @@
 # Homebrew formula for datui. Placeholders are substituted by .github/workflows/publish-packages.yml
-# when updating the tap: 0.2.42, https://github.com/derekwisong/datui/releases/download/v0.2.42/datui-v0.2.42-aarch64-apple-darwin.tar.gz, a8306999823e020aa5cceda0112bf65b5b69942b2e4b8fa33477b5ec0fcd6f69,
-# https://github.com/derekwisong/datui/releases/download/v0.2.42/datui-v0.2.42-x86_64-apple-darwin.tar.gz, 761af521dd5ca9812f43b171983e447495d40bb42276d1466c798f81bed5bf09.
+# when updating the tap: 0.2.43, https://github.com/derekwisong/datui/releases/download/v0.2.43/datui-v0.2.43-aarch64-apple-darwin.tar.gz, a53d4a0dc3c366464fefbd7316063bc4e1cb9c7b009144714e88255a2a1e9079,
+# https://github.com/derekwisong/datui/releases/download/v0.2.43/datui-v0.2.43-x86_64-apple-darwin.tar.gz, 3d5b76d1f36a7b6102a3ce4837e629a0bab145e34ca0dd0a7aba562fc6fef3a1.
 class Datui < Formula
   desc "Data Exploration in the Terminal"
   homepage "https://github.com/derekwisong/datui"
-  version "0.2.42"
+  version "0.2.43"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/derekwisong/datui/releases/download/v0.2.42/datui-v0.2.42-aarch64-apple-darwin.tar.gz"
-      sha256 "a8306999823e020aa5cceda0112bf65b5b69942b2e4b8fa33477b5ec0fcd6f69"
+      url "https://github.com/derekwisong/datui/releases/download/v0.2.43/datui-v0.2.43-aarch64-apple-darwin.tar.gz"
+      sha256 "a53d4a0dc3c366464fefbd7316063bc4e1cb9c7b009144714e88255a2a1e9079"
     end
     on_intel do
-      url "https://github.com/derekwisong/datui/releases/download/v0.2.42/datui-v0.2.42-x86_64-apple-darwin.tar.gz"
-      sha256 "761af521dd5ca9812f43b171983e447495d40bb42276d1466c798f81bed5bf09"
+      url "https://github.com/derekwisong/datui/releases/download/v0.2.43/datui-v0.2.43-x86_64-apple-darwin.tar.gz"
+      sha256 "3d5b76d1f36a7b6102a3ce4837e629a0bab145e34ca0dd0a7aba562fc6fef3a1"
     end
   end
 
