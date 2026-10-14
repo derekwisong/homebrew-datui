@@ -1,33 +1,33 @@
 # Homebrew formula for datui. Placeholders are substituted by .github/workflows/publish-packages.yml
-# when updating the tap: 0.4.8, https://github.com/derekwisong/datui/releases/download/v0.4.8/datui-v0.4.8-aarch64-apple-darwin.tar.gz, 57fb0ec17592d27afe6843e5a3349914b8941cd7b3fa000075f9b6b2d332db29,
-# https://github.com/derekwisong/datui/releases/download/v0.4.8/datui-v0.4.8-x86_64-apple-darwin.tar.gz, cdc75b0d3feccea1c35d782d2c32a0771e07c33c7c4f6f5163e4dc91edff5add, and the URL_LINUX_*/SHA_LINUX_* pairs.
+# when updating the tap: 0.4.9, https://github.com/derekwisong/datui/releases/download/v0.4.9/datui-v0.4.9-aarch64-apple-darwin.tar.gz, 3e2b2e26b799f9e3d746181ef8a3780e882e2a6e55834d30c7e4ad09a0dee1c6,
+# https://github.com/derekwisong/datui/releases/download/v0.4.9/datui-v0.4.9-x86_64-apple-darwin.tar.gz, 9d91b8ba13801f5a0eadfdc385e587f852361efb3e79588cd87ab467411be4d3, and the URL_LINUX_*/SHA_LINUX_* pairs.
 class Datui < Formula
 # generated: desc
   desc "Explore tabular data in your terminal: Parquet, CSV, JSON and more"
 # end generated: desc
   homepage "https://github.com/derekwisong/datui"
-  version "0.4.8"
+  version "0.4.9"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/derekwisong/datui/releases/download/v0.4.8/datui-v0.4.8-aarch64-apple-darwin.tar.gz"
-      sha256 "57fb0ec17592d27afe6843e5a3349914b8941cd7b3fa000075f9b6b2d332db29"
+      url "https://github.com/derekwisong/datui/releases/download/v0.4.9/datui-v0.4.9-aarch64-apple-darwin.tar.gz"
+      sha256 "3e2b2e26b799f9e3d746181ef8a3780e882e2a6e55834d30c7e4ad09a0dee1c6"
     end
     on_intel do
-      url "https://github.com/derekwisong/datui/releases/download/v0.4.8/datui-v0.4.8-x86_64-apple-darwin.tar.gz"
-      sha256 "cdc75b0d3feccea1c35d782d2c32a0771e07c33c7c4f6f5163e4dc91edff5add"
+      url "https://github.com/derekwisong/datui/releases/download/v0.4.9/datui-v0.4.9-x86_64-apple-darwin.tar.gz"
+      sha256 "9d91b8ba13801f5a0eadfdc385e587f852361efb3e79588cd87ab467411be4d3"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/derekwisong/datui/releases/download/v0.4.8/datui-v0.4.8-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "f4840f6562fb81dee987333a0e62008fff59adefd824c7134f3d598e6f85e23f"
+      url "https://github.com/derekwisong/datui/releases/download/v0.4.9/datui-v0.4.9-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "eaaecacb78756824c53b4688bd49d23dffa1f675bb5a8a1f8c1ed72458ad07f3"
     end
     on_intel do
-      url "https://github.com/derekwisong/datui/releases/download/v0.4.8/datui-v0.4.8-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "ba5df4f6c32f5fdd9f55ab685eb0325bdd2fc22025ab572cc9b1cc1f0c97a009"
+      url "https://github.com/derekwisong/datui/releases/download/v0.4.9/datui-v0.4.9-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "564492a055db18576b3603efbf8adcc79f9cf6bd7e6f4487fe844bf8801e6a27"
     end
   end
 
